@@ -1,19 +1,21 @@
-# stripe-atlas-brain
+# stripe-brain
 
-> "I don't think I've typed like a line of code probably since December, basically, which is an extremely large change."
-> — Andrej Karpathy, No Priors podcast, March 2026
+> "When asked what their greatest barrier to entrepreneurship was, a plurality of founders (43%) said 'bureaucracy.'"
+> — Stripe Atlas Census, 2021
 
-When I heard Karpathy say this, I thought about the **other** side of building — the hard questions that have nothing to do with code. How do you split equity fairly? How do you pitch without sounding like every other deck? How do you hire when you can barely pay yourself?
+Stripe's mission is to **increase the GDP of the internet**. In 2016, we launched [Stripe Atlas](https://stripe.com/atlas) to remove one of the biggest barriers: incorporating a company is still, in most of the world, unnecessarily hard.
 
-Stripe Atlas answered these questions for me when I co-founded ADSUM at 26. Not the Delaware C-Corp part — the guides. Patrick Collison and Michael Seibel wrote down everything they wished someone had told them. That content has helped 100,000+ companies get started.
+Since then, **100,000+ companies** have started with Atlas. They've raised **$4.1 billion** in capital. They employ **99,000 people** across 162 countries. From Istanbul, founders incorporated restaurant tech startups and expanded to 64 countries. From Lagos, from São Paulo, from anywhere with wifi — entrepreneurs are building real businesses.
 
-**It's been buried in PDFs for years. Now it works with AI.**
+But incorporation was never the hard part.
 
-I'm [Annissa Poon](https://linkedin.com/in/annissapoon). I ran operations for the world's largest social token community (WHALE, backed by WhaleShark — Forbes, Yahoo Finance). I advised a billionaire family office on crypto strategy at 21, turning $3M into $6M in one year. I've built communities that scaled to 20K+ members. Now I'm Community Manager at [SafetyWing](https://safetywing.com) (YC W18), helping digital nomads build anywhere.
+**The hard part is everything else.** How do you split equity with your cofounder? How do you pitch investors when you've never done it? How do you hire your first employee without getting burned?
 
-**stripe-atlas-brain is my answer to a problem I kept seeing:** First-time founders asking the same questions I asked. Questions about equity splits that destroy friendships. Pitches that bury the lede. Hiring mistakes that cost six months. 
+We partnered with Y Combinator to write the answers down. [Michael Seibel](https://www.ycombinator.com/people/michael-seibel), YC's CEO, helped build our pitch framework. [Orrick](https://www.orrick.com/) contributed the equity guide. We documented what experienced founders know but first-time founders have to learn the hard way.
 
-This repo turns Stripe's founder education into **skills** — structured prompts that work with Claude, Cursor, Codex, or any LLM that reads markdown.
+**stripe-brain makes those guides work with AI.**
+
+This repo turns Stripe's founder education into structured prompts — skills you can use in Claude, Cursor, Codex, or any LLM that reads markdown.
 
 ---
 
@@ -22,13 +24,13 @@ This repo turns Stripe's founder education into **skills** — structured prompt
 | Skill | What it does |
 |-------|-------------|
 | `/atlas-office-hours` | The hard questions before you write a line of code |
-| `/pitch` | Investor pitch coaching (built with YC's Michael Seibel) |
+| `/pitch` | Investor pitch coaching (with YC's Michael Seibel) |
 | `/pitch-deck` | Structure your deck using the 5 pitch plot frameworks |
 | `/equity` | Founder splits, vesting, dilution, 83(b) elections |
 | `/hiring` | Recruit early talent without getting burned |
 | `/founder-stress` | Manage the psychological weight of building |
 
-Each skill is a complete framework. Ask it questions. Get challenged. Build something that doesn't fall apart at Series A because you never had The Conversation about equity.
+Each skill is a complete framework. You ask questions. It challenges you. You build something that doesn't fall apart at Series A.
 
 ---
 
@@ -37,25 +39,25 @@ Each skill is a complete framework. Ask it questions. Get challenged. Build some
 ### For Claude Code
 
 ```bash
-git clone https://github.com/Annissa-x/stripe-brain.git ~/.claude/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git ~/.claude/skills/stripe-brain
 ```
 
-Then add to your CLAUDE.md:
+Add to your CLAUDE.md:
 ```markdown
 ## Skills
-- stripe-atlas-brain: /atlas-office-hours, /pitch, /pitch-deck, /equity, /hiring, /founder-stress
+- stripe-brain: /atlas-office-hours, /pitch, /pitch-deck, /equity, /hiring, /founder-stress
 ```
 
 ### For Cursor / Codex
 
 ```bash
-git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-brain
 ```
 
 ### For Clawdbot
 
 ```bash
-git clone https://github.com/Annissa-x/stripe-brain.git ~/.clawdbot/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git ~/.clawdbot/skills/stripe-brain
 ```
 
 ---
@@ -63,16 +65,16 @@ git clone https://github.com/Annissa-x/stripe-brain.git ~/.clawdbot/skills/strip
 ## Quick start
 
 ```
-/atlas-office-hours "I'm building a platform connecting people with spiritual counselors"
+/atlas-office-hours "I'm building a marketplace for local services"
 ```
 
-The AI will challenge you like a YC partner would. Do this **before** you build, not after.
+Get challenged like a YC partner would challenge you. Do this **before** you build.
 
 ```
-/pitch "We help remote workers get health insurance in 180+ countries..."
+/pitch "We help small businesses accept payments in emerging markets..."
 ```
 
-Get your pitch scored against YC criteria. Rewrite it until it lands in 18 words.
+Get your pitch scored. Rewrite it until it lands in 18 words.
 
 ```
 /equity "My cofounder wants 50% but they're only working nights and weekends"
@@ -84,39 +86,44 @@ Learn the frameworks before you make decisions you can't undo.
 
 ## Why this exists
 
-Garry Tan open-sourced his development workflow as [gstack](https://github.com/garrytan/gstack). He's shipping 10,000-20,000 lines of production code per day while running YC.
+Stripe Atlas helped 100,000+ companies incorporate. But the best part of Atlas was never the Delaware C-Corp — it was the guides.
 
-But code isn't the hard part for most founders. **The hard part is everything before the code** — and everything after.
+The guides taught you what experienced founders know: how to think about equity, how to pitch without rambling, how to hire without regret.
 
-Stripe Atlas figured this out years ago. They wrote the guides. They just never made them work the way founders work today: talking to AI, building in real-time, needing answers at 2am when your cofounder texts you something that changes everything.
-
-**Now it does.**
+For years, this content lived in PDFs on stripe.com/guides. Now it works the way founders work today — talking to AI at 2am when their cofounder texts them something that changes everything.
 
 ---
 
-## Philosophy
+## The numbers
 
-> "The definition of happiness is one's feeling of contribution to their community. My goal is to maximize potential and contribution."
+**Stripe Atlas companies (as of 2021):**
+- 100,000+ companies started
+- 162 countries
+- $4.1 billion raised
+- 99,000 employees
+- 91% outside Silicon Valley
 
-I believe the founders you teach become the customers you keep. Stripe gets this. That's why they wrote these guides. That's why Atlas has helped 100,000+ companies.
+**Founder demographics:**
+- 43% first-time founders
+- 28% minorities in their country
+- 24% immigrants
+- Fastest growth: Nigeria (400% YoY), UAE (165%), India (66%)
 
-I'm just making it accessible in the format that matters now.
+Entrepreneurship is going global. The infrastructure should too.
 
 ---
 
 ## Credits
 
 - Content adapted from [Stripe Atlas Guides](https://stripe.com/guides/atlas-guides)
-- Original guides created by Stripe with input from Y Combinator
-- Pitch framework built with YC CEO Michael Seibel
+- Pitch framework developed with [Y Combinator](https://www.ycombinator.com/) and YC CEO [Michael Seibel](https://www.ycombinator.com/people/michael-seibel)
 - Equity guide developed with [Orrick](https://www.orrick.com/)
+- Original guides: © Stripe
 
-Built by [Annissa Poon](https://twitter.com/annissapoon) with Claude.
+Packaged for AI by the community.
 
 ---
 
 ## License
 
-MIT — fork it, improve it, make it yours.
-
-If you build something with this, tell me. I want to see what you ship.
+MIT — fork it, improve it, ship something.
