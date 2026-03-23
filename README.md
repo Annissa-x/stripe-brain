@@ -3,57 +3,84 @@
 > "When asked what their greatest barrier to entrepreneurship was, a plurality of founders (43%) said 'bureaucracy.'"
 > — Stripe Atlas Census, 2021
 
-Stripe's mission is to **increase the GDP of the internet**. In 2016, they launched [Stripe Atlas](https://stripe.com/atlas) to remove one of the biggest barriers: incorporating a company is still, in most of the world, unnecessarily hard.
+**Chat with Stripe Atlas.** This repo turns Stripe's founder education into AI-native skills — ask questions, get frameworks, build better businesses.
 
-Since then, **100,000+ companies** have started with Atlas. They've raised **$4.1 billion** in capital. They employ **99,000 people** across 162 countries.
-
-But incorporation was never the hard part.
-
-**The hard part is everything else.** How do you split equity with your cofounder? How do you structure a pitch that actually lands? What contracts do you need in year one? How do you survive tax season?
-
-Stripe wrote the answers down — and built sample decks, frameworks, and checklists. For years, this content lived scattered across stripe.com.
-
-**stripe-brain makes it work with AI.**
+Stripe Atlas has helped **100,000+ companies** get started across **162 countries**. The guides taught founders what experienced operators know. Now you can talk to them.
 
 ---
 
-## What's inside
+## Skills Available Now
 
-### Pitch & Fundraising
+### 💰 Fundraising & Pitch
+| Skill | What you can ask |
+|-------|------------------|
+| `/pitch-deck` | "Help me create a pitch deck for my fintech startup" |
+| `/pitch` | "Review my investor pitch and make it tighter" |
 
-| Skill | What it does | Resources |
-|-------|--------------|-----------|
-| `/pitch` | Investor pitch coaching | [Guide](https://stripe.com/guides/atlas/pitching) |
-| `/pitch-deck` | The 5 Pitch Plot frameworks | [Guide](https://stripe.com/guides/atlas/pitchdeck) + **5 sample decks** |
+**Pitch deck includes 5 embedded sample decks** — the AI uses real examples to help you structure your slides.
 
-**Sample Pitch Decks** (from Stripe Atlas, $4.5B in raised capital):
-- [🔄 Starting Over](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Starting+over.pdf) — Reinvent a market from scratch (Tesla, Ethos)
-- [⬇️ Doing That Over Here](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Doing+that+over+here.pdf) — Powerful analogy ("Gusto for freelancers")
-- [💡 But Here's The Thing](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/But+here_s+the+thing.pdf) — Unique insight from deep expertise
-- [📱 All The Kids Are Doing It](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/All+the+kids+are+doing+It.pdf) — Spot new customer behavior (early GitHub, Figma)
-- [🎯 I Took It Personally](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/I+took+it+personally.pdf) — Personal story drives the mission
+### 🏢 Company Formation
+| Skill | What you can ask |
+|-------|------------------|
+| `/incorporation` | "Should I incorporate in Delaware or my home state?" |
+| `/llc-vs-c-corp` | "What's the difference between LLC and C-Corp for a startup?" |
+| `/equity` | "How should I split equity with my cofounder?" |
 
-### Company Building
+### 💵 Finance & Taxes
+| Skill | What you can ask |
+|-------|------------------|
+| `/bookkeeping-and-accounting` | "How do I set up bookkeeping for my startup?" |
+| `/business-taxes` | "What taxes does my Delaware C-Corp need to pay?" |
+| `/tax-season` | "Help me prepare for my first tax season as a startup" |
 
-| Skill | What it does | Resources |
-|-------|--------------|-----------|
-| `/atlas-office-hours` | Hard questions before you build | [Guides](https://stripe.com/guides/atlas-guides) |
-| `/equity` | Splits, vesting, dilution, 83(b) | [Guide](https://stripe.com/guides/atlas/equity) |
-| `/hiring` | Hiring, IP, contractor agreements | [Guide](https://stripe.com/guides/atlas/employment) |
-| `/founder-stress` | Managing the psychological load | [Guide](https://stripe.com/guides/atlas/founder-stress) |
+### 👥 Team & Operations
+| Skill | What you can ask |
+|-------|------------------|
+| `/hiring` | "How do I hire my first engineer?" |
+| `/founder-stress` | "I'm burning out — how do other founders cope?" |
+| `/atlas-office-hours` | "Challenge my startup idea before I build" |
 
-### Coming Soon
+---
 
-| Topic | Source |
-|-------|--------|
-| Bookkeeping & accounting | [stripe.com/guides/atlas/bookkeeping-and-accounting](https://stripe.com/guides/atlas/bookkeeping-and-accounting) |
-| Business taxes | [stripe.com/guides/atlas/business-taxes](https://stripe.com/guides/atlas/business-taxes) |
-| Surviving tax season | [stripe.com/guides/atlas/tax-season](https://stripe.com/guides/atlas/tax-season) |
-| Contracts & agreements | [stripe.com/guides/atlas/transactions-and-agreements](https://stripe.com/guides/atlas/transactions-and-agreements) |
-| SaaS business model | [stripe.com/guides/atlas/business-of-saas](https://stripe.com/guides/atlas/business-of-saas) |
-| SaaS pricing | [stripe.com/guides/atlas/saas-pricing](https://stripe.com/guides/atlas/saas-pricing) |
-| Starting remote | [stripe.com/guides/atlas/starting-a-remote-company](https://stripe.com/guides/atlas/starting-a-remote-company) |
-| Founding documents | [stripe.com/guides/atlas/creating-your-founding-documents](https://stripe.com/guides/atlas/creating-your-founding-documents) |
+## Coming Soon
+
+Building skills for these Stripe Atlas guides:
+
+**Growth & Sales:**
+- Starting sales
+- SaaS pricing & business model
+- Email marketing
+- Landing page copy
+- Marketplaces (Andrew Chen)
+
+**Team Building:**
+- Full recruiting guide
+- Building executive team
+- Building finance team
+- Building PM org
+- Scaling engineering
+- Remote companies
+- Organizations & hypergrowth
+
+**AMAs with:**
+- Marc Andreessen
+- John Doerr
+- Tom Blomfield (Monzo)
+- Steli Efti (Close)
+- Heidi Zak (ThirdLove)
+
+---
+
+## Further Reading: Stripe Press
+
+[Stripe Press](https://press.stripe.com/) publishes books on building companies:
+
+| Book | Author | Best for |
+|------|--------|----------|
+| [High Growth Handbook](https://press.stripe.com/high-growth-handbook) | Elad Gil | Scaling from 10 to 10,000 people |
+| [An Elegant Puzzle](https://press.stripe.com/an-elegant-puzzle) | Will Larson | Engineering management |
+| [Working in Public](https://press.stripe.com/working-in-public) | Nadia Eghbal | Open source & community |
+| [The Art of Doing Science and Engineering](https://press.stripe.com/the-art-of-doing-science-and-engineering) | Richard Hamming | How to do great work |
 
 ---
 
@@ -68,7 +95,7 @@ git clone https://github.com/Annissa-x/stripe-brain.git ~/.claude/skills/stripe-
 Add to your CLAUDE.md:
 ```markdown
 ## Skills
-- stripe-brain: /atlas-office-hours, /pitch, /pitch-deck, /equity, /hiring, /founder-stress
+- stripe-brain: /pitch-deck, /pitch, /equity, /hiring, /incorporation, /llc-vs-c-corp, /bookkeeping-and-accounting, /business-taxes, /tax-season, /founder-stress, /atlas-office-hours
 ```
 
 ### For Cursor / Codex
@@ -79,26 +106,23 @@ git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-br
 
 ---
 
-## Quick start
+## How It Works
 
-```
-/pitch-deck "I'm building a fintech startup for freelancers"
-```
-→ Get matched to the right pitch plot + sample deck to study
+Each skill embeds the actual Stripe Atlas guide content — frameworks, checklists, examples. When you ask a question, the AI uses that embedded knowledge to help you.
 
+**Example:**
 ```
-/equity "My cofounder wants 50% but they're only working part-time"
-```
-→ Learn the frameworks before you make decisions you can't undo
+You: "I'm building a B2B SaaS for restaurants. Help me create a pitch deck."
 
+AI: Based on your B2B SaaS, I'd recommend the "Doing That Over Here" pitch plot...
+    [Uses embedded sample deck to structure your slides]
 ```
-/pitch "We help small businesses manage inventory..."
-```
-→ Get your pitch tightened to land in 60 seconds
+
+No PDFs to download. No links to click. Just ask and get help.
 
 ---
 
-## The numbers
+## The Numbers
 
 **Stripe Atlas companies:**
 - 100,000+ companies started
@@ -107,19 +131,11 @@ git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-br
 - 99,000 employees
 - 91% outside Silicon Valley
 
-**Founder demographics:**
-- 43% first-time founders
-- 28% minorities in their country
-- 24% immigrants
-- Fastest growth: Nigeria (400% YoY), UAE (165%), India (66%)
-
 ---
 
 ## Credits
 
 Content adapted from [Stripe Atlas Guides](https://stripe.com/guides/atlas-guides).
-
-Pitch deck framework from [4th & King](https://stripe.com/guides/atlas/pitchdeck), which has led to $4.5B in raised capital.
 
 Original guides © Stripe.
 
