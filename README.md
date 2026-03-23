@@ -37,7 +37,7 @@ Each skill is a complete framework. Ask it questions. Get challenged. Build some
 ### For Claude Code
 
 ```bash
-git clone https://github.com/annissapoon/stripe-atlas-brain.git ~/.claude/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git ~/.claude/skills/stripe-atlas-brain
 ```
 
 Then add to your CLAUDE.md:
@@ -49,13 +49,13 @@ Then add to your CLAUDE.md:
 ### For Cursor / Codex
 
 ```bash
-git clone https://github.com/annissapoon/stripe-atlas-brain.git .agents/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-atlas-brain
 ```
 
 ### For Clawdbot
 
 ```bash
-git clone https://github.com/annissapoon/stripe-atlas-brain.git ~/.clawdbot/skills/stripe-atlas-brain
+git clone https://github.com/Annissa-x/stripe-brain.git ~/.clawdbot/skills/stripe-atlas-brain
 ```
 
 ---
