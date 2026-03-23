@@ -9,30 +9,42 @@ Since then, **100,000+ companies** have started with Atlas. They've raised **$4.
 
 But incorporation was never the hard part.
 
-**The hard part is everything else.** How do you split equity with your cofounder? How do you handle taxes in your first year? What contracts do you actually need? How do you price your SaaS?
+**The hard part is everything else.** How do you split equity with your cofounder? How do you structure a pitch that actually lands? What contracts do you need in year one? How do you survive tax season?
 
-Stripe wrote the answers down. For years, this content lived in PDFs on stripe.com/guides. 
+Stripe wrote the answers down — and built sample decks, frameworks, and checklists. For years, this content lived scattered across stripe.com.
 
-**stripe-brain makes those guides work with AI.**
-
-This repo turns Stripe's founder education into structured prompts — skills you can use in Claude, Cursor, Codex, or any LLM that reads markdown.
+**stripe-brain makes it work with AI.**
 
 ---
 
 ## What's inside
 
-| Skill | Source | What it does |
-|-------|--------|--------------|
-| `/atlas-office-hours` | [Atlas Guides](https://stripe.com/guides/atlas-guides) | The hard questions before you write code |
-| `/pitch` | [Pitching](https://stripe.com/guides/atlas/pitching) | Structure your investor pitch |
-| `/pitch-deck` | [Pitching](https://stripe.com/guides/atlas/pitching) | The 5 pitch plot frameworks |
-| `/equity` | [Equity for founders](https://stripe.com/guides/atlas/equity) | Splits, vesting, dilution, 83(b) |
-| `/hiring` | [Employment](https://stripe.com/guides/atlas/employment) | Hiring, IP, contractor agreements |
-| `/founder-stress` | [Founder stress](https://stripe.com/guides/atlas/founder-stress) | Managing the psychological load |
+### Pitch & Fundraising
 
-### More Stripe Atlas content (coming soon)
+| Skill | What it does | Resources |
+|-------|--------------|-----------|
+| `/pitch` | Investor pitch coaching | [Guide](https://stripe.com/guides/atlas/pitching) |
+| `/pitch-deck` | The 5 Pitch Plot frameworks | [Guide](https://stripe.com/guides/atlas/pitchdeck) + **5 sample decks** |
 
-| Guide | Source |
+**Sample Pitch Decks** (from Stripe Atlas, $4.5B in raised capital):
+- [🔄 Starting Over](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Starting+over.pdf) — Reinvent a market from scratch (Tesla, Ethos)
+- [⬇️ Doing That Over Here](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Doing+that+over+here.pdf) — Powerful analogy ("Gusto for freelancers")
+- [💡 But Here's The Thing](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/But+here_s+the+thing.pdf) — Unique insight from deep expertise
+- [📱 All The Kids Are Doing It](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/All+the+kids+are+doing+It.pdf) — Spot new customer behavior (early GitHub, Figma)
+- [🎯 I Took It Personally](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/I+took+it+personally.pdf) — Personal story drives the mission
+
+### Company Building
+
+| Skill | What it does | Resources |
+|-------|--------------|-----------|
+| `/atlas-office-hours` | Hard questions before you build | [Guides](https://stripe.com/guides/atlas-guides) |
+| `/equity` | Splits, vesting, dilution, 83(b) | [Guide](https://stripe.com/guides/atlas/equity) |
+| `/hiring` | Hiring, IP, contractor agreements | [Guide](https://stripe.com/guides/atlas/employment) |
+| `/founder-stress` | Managing the psychological load | [Guide](https://stripe.com/guides/atlas/founder-stress) |
+
+### Coming Soon
+
+| Topic | Source |
 |-------|--------|
 | Bookkeeping & accounting | [stripe.com/guides/atlas/bookkeeping-and-accounting](https://stripe.com/guides/atlas/bookkeeping-and-accounting) |
 | Business taxes | [stripe.com/guides/atlas/business-taxes](https://stripe.com/guides/atlas/business-taxes) |
@@ -70,32 +82,19 @@ git clone https://github.com/Annissa-x/stripe-brain.git .agents/skills/stripe-br
 ## Quick start
 
 ```
-/atlas-office-hours "I'm building a marketplace for local services"
+/pitch-deck "I'm building a fintech startup for freelancers"
 ```
-
-Get challenged on your assumptions before you build.
+→ Get matched to the right pitch plot + sample deck to study
 
 ```
 /equity "My cofounder wants 50% but they're only working part-time"
 ```
-
-Learn the frameworks before you make decisions you can't undo.
+→ Learn the frameworks before you make decisions you can't undo
 
 ```
 /pitch "We help small businesses manage inventory..."
 ```
-
-Get your pitch tightened to land in 60 seconds.
-
----
-
-## Why this exists
-
-Stripe Atlas helped 100,000+ companies incorporate. But the best part of Atlas was never the Delaware C-Corp — it was the guides.
-
-The guides taught you what experienced founders know: how to think about equity, how to survive tax season, what contracts you actually need in year one.
-
-This repo makes that content work the way founders work today — talking to AI at 2am when they need answers.
+→ Get your pitch tightened to land in 60 seconds
 
 ---
 
@@ -119,6 +118,8 @@ This repo makes that content work the way founders work today — talking to AI 
 ## Credits
 
 Content adapted from [Stripe Atlas Guides](https://stripe.com/guides/atlas-guides).
+
+Pitch deck framework from [4th & King](https://stripe.com/guides/atlas/pitchdeck), which has led to $4.5B in raised capital.
 
 Original guides © Stripe.
 
