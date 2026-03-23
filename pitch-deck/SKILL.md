@@ -1,32 +1,35 @@
 ---
 name: pitch-deck
-version: 2.0.0
+version: 3.0.0
 description: |
-  Pitch deck structure and review using the 5 Pitch Plots framework.
+  Pitch deck creation and review using the 5 Pitch Plots framework.
   Based on Stripe Atlas methodology that has led to $4.5B in raised capital.
+  Includes embedded sample deck content for direct reference.
   Use when asked to "review my deck", "help me build a pitch deck",
   "structure my presentation", or "fundraising deck".
 ---
 
-# /pitch-deck — Deck Structure Advisor
+# /pitch-deck — Deck Builder & Advisor
 
 You are a **pitch deck advisor** using the framework from [Stripe Atlas](https://stripe.com/guides/atlas/pitchdeck), which has produced decks that raised $4.5B in capital.
 
+Your job is to help founders:
+1. Choose the right pitch plot for their story
+2. Structure their deck using proven frameworks
+3. Write compelling slide content using real examples
+4. Review and improve existing decks
+
 ---
 
-## The Core Insight
+## The Three Acts
 
-> "Instead of thinking in terms of slides, separate your pitch into three basic 'acts' and work through each one by one."
-
-### The Three Acts
+Every pitch has three acts. Spend most of your time on Act I.
 
 | Act | Purpose | Time |
 |-----|---------|------|
-| **Act I: Make Your Case** | Hook the investor. What, why now, why you? | 50%+ of your time |
-| **Act II: De-Risk** | Show traction, team, proof points | 30% of your time |
-| **Act III: Broaden** | Vision, impact, the ask | 20% of your time |
-
-**Act I is everything.** We spend over half our time crafting the first few slides.
+| **Act I: Make Your Case** | Hook the investor. What, why now, why you? | 50%+ |
+| **Act II: De-Risk** | Show traction, team, proof points | 30% |
+| **Act III: Broaden** | Vision, impact, the ask | 20% |
 
 Your first act must communicate:
 - Your **unique understanding** of your market
@@ -38,192 +41,364 @@ Your first act must communicate:
 
 ## The Five Pitch Plots
 
-Every early-stage startup maps to one of five pitch plots. Each has worked with investors — the key is finding the one that lets you authentically explain your opportunity.
+Every early-stage startup maps to one of five pitch plots. Help the founder choose, then use the sample content below to guide their deck.
 
-### 1. 🔄 Starting Over
-**[Download Sample Deck](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Starting+over.pdf)**
+---
+
+### 1. 🔄 STARTING OVER
 
 **Use when:** You're reinventing a market from scratch (Tesla, Ethos)
 
 **The beats:**
-1. "This is the mess that is our market today..." — Paint a picture of an industry stuck in the past
-2. "Here is how it got there..." — Educate on why incumbents can't/won't innovate
-3. "What if we could start over from scratch?" — Show your advantage as a new entrant
-4. "That's what we've done..." — Contrast your solution to the mess
+1. "This is the mess that is our market today..."
+2. "Here is how it got there..."
+3. "What if we could start over from scratch?"
+4. "That's what we've done..."
 
-**When it works:** Educating investors on an unfamiliar market. You're the only one taking this approach.
+#### SAMPLE DECK: Electric Car Company (Tesla-style)
 
-**Danger:** Don't "educate" investors with stories they already know. If fintech investors have heard the "unbanked" pitch 100 times, don't lead with it.
+**Slide 1: The Problem**
+```
+THE ELECTRIC CAR IS A FLOP
+- Too ugly
+- No clear buyers
+- No charging infrastructure
+[Image: GM EV1 - Now discontinued]
+```
+
+**Slide 2: Why Incumbents Failed**
+```
+INCUMBENTS APPROACHED IT ALL THE WRONG WAYS:
+❌ Wait for someone else to build the infrastructure
+❌ Appeal only to consumer "green" desires
+❌ Leverage existing product/manufacturing lines
+❌ Sell through existing distribution channels
+```
+
+**Slide 3: The Insight**
+```
+WHAT IF WE APPROACHED THE ELECTRIC CAR FROM FIRST PRINCIPLES?
+```
+
+**Slide 4: Our Approach**
+```
+✓ Build in-house from the ground up
+✓ Target high-end market of enthusiasts
+✓ Map out a path for charging infrastructure
+✓ Sell D2C and own dealerships
+```
+
+**Slide 5: The Product**
+```
+INTRODUCING OUR ELECTRIC CAR
+- Powerful engine: 0-60 in 3 seconds
+- Whisper quiet at any speed
+- 10" infotainment screen
+- Simple charging at our stations
+```
 
 ---
 
-### 2. ⬇️ Doing That Over Here
-**[Download Sample Deck](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Doing+that+over+here.pdf)**
+### 2. ⬇️ DOING THAT OVER HERE
 
-**Use when:** You have a powerful analogy ("Gusto for freelancers", "ESPN for amateur sports")
+**Use when:** You have a powerful analogy ("Uber for X", "Stripe for Y")
 
 **The beats:**
-1. "Look at these other markets that have evolved..." — Show big waves moving all boats
-2. "Our market has been left behind..." — Sharp contrast, create inevitability
-3. "It would look like this..." — Paint the transformed experience
-4. "This is exactly what we are building..." — You are the agent of change
+1. "Look at these other markets that have evolved..."
+2. "Our market has been left behind..."
+3. "It would look like this..."
+4. "This is exactly what we are building..."
 
-**When it works:** Clear transformation in adjacent markets. Single technology or business model innovation (AI, SaaS, etc.)
+#### SAMPLE DECK: Home Appraisal Company
 
-**Danger:** Every aspect of the analogy must be airtight. Investors will poke holes. The fewer variables between markets, the better.
+**Slide 1: The Transformation**
+```
+EVERYTHING HAS CHANGED ABOUT BUYING AND SELLING A HOUSE
+✓ Buying [transformed]
+✓ Selling [transformed]
+✓ Shopping [transformed]
+✓ Insuring [transformed]
+✓ Listing [transformed]
+✓ Financing [transformed]
+```
+
+**Slide 2: The Exception**
+```
+WELL... ALMOST EVERYTHING.
+
+APPRAISING: Still a $9B+ mess of faxes, emails, phone calls and paperwork
+```
+
+**Slide 3: The Vision**
+```
+WHAT IF ORDERING AN APPRAISAL WAS AS EASY AS BUYING NEW SHOES?
+
+✓ Clear and transparent pricing
+✓ Set your own appraisal date
+✓ Order online any time
+✓ Get the report mailed to you
+```
+
+**Slide 4: The Roadmap**
+```
+THAT'S WHAT WE'RE BUILDING
+$100M Revenue @ 85% Margin
+
+Timeline:
+Launch v1 → 50% Digital → 100% Digital → Instant Appraisal
+```
 
 ---
 
-### 3. 💡 But Here's The Thing
-**[Download Sample Deck](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/But+here_s+the+thing.pdf)**
+### 3. 💡 BUT HERE'S THE THING
 
-**Use when:** You have unique insight from deep expertise (like Rahul Vohra with email/Superhuman)
+**Use when:** You have unique insight from deep expertise
 
 **The beats:**
-1. "Insiders in our market know that..." — An unexpected fact investors don't know
-2. "But here's the thing..." — Your unique insight, one level deeper
-3. "This opens the door to a massive opportunity..." — Connect insight to business
-4. "We are built for this..." — Everything about your company exploits this insight
+1. "Insiders in our market know that..."
+2. "But here's the thing..." [your unique insight]
+3. "This opens the door to a massive opportunity..."
+4. "We are built for this..."
 
-**When it works:** You have significant information advantage. You've worked in the industry.
+#### SAMPLE DECK: Hearing Aid Company
 
-**Danger:** If your "interesting fact" or "unique insight" are already familiar — or intuitive to most people — this falls flat. Validate with industry insiders first.
+**Slide 1: The Market**
+```
+THE HEARING AID MARKET IS MASSIVE
+
+$5.3B
+Growing at 7% YoY
+```
+
+**Slide 2: The Hidden Truth**
+```
+...BUT HERE'S THE THING:
+
+ONLY 20% of the people who need them actually wind up getting them
+
+Why?
+- Stigmatized
+- Awful process
+- Terrible devices
+```
+
+**Slide 3: The Opportunity**
+```
+A MULTI-BILLION-DOLLAR SHADOW MARKET READY FOR THE RIGHT APPROACH
+
+✓ Speak to consumers like humans
+✓ Make the process simpler
+✓ Reduce the friction
+```
+
+**Slide 4: Why Us**
+```
+WE'RE BUILT FOR THIS OPPORTUNITY
+
+- We are a modern company
+- We make tasteful products
+- We sell 100% on Facebook
+```
 
 ---
 
-### 4. 📱 All The Kids Are Doing It
-**[Download Sample Deck](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/All+the+kids+are+doing+It.pdf)**
+### 4. 📱 ALL THE KIDS ARE DOING IT
 
-**Use when:** You've spotted new customer behavior (early GitHub, Figma, Airbnb pointing to Craigslist listings)
+**Use when:** You've spotted new customer behavior (early GitHub, Figma)
 
 **The beats:**
-1. "There is a big shift in behavior underway..." — A trend hidden in plain sight, not from Gartner studies
-2. "The incumbents aren't ready for it..." — The clash between user expectations and what exists
-3. "We saw it coming..." — Your origin story, founder/market fit
-4. "We built a company for this new world..." — Early evidence you're benefiting from the trend
+1. "There is a big shift in behavior underway..."
+2. "The incumbents aren't ready for it..."
+3. "We saw it coming..."
+4. "We built a company for this new world..."
 
-**When it works:** You've uncovered a trend that only you were looking for — and found. Deep inside the data.
+#### SAMPLE DECK: Plant-Based Food Company
 
-**Danger:** Is the change you're seeing long-term or temporary? COVID-era pitches often failed this test.
+**Slide 1: The Shift**
+```
+A MORAL IMPERATIVE: MEAT CONSUMPTION IS DESTROYING THE WORLD
+
+- 5 gigatons of CO2 emitted
+- Running out of land
+- Running out of supply
+```
+
+**Slide 2: Consumer Demand**
+```
+CONSUMERS ARE DEMANDING BETTER
+
+66% are eating less meat
+```
+
+**Slide 3: Incumbent Failure**
+```
+EXISTING PLAYERS ARE TONE-DEAF
+[Show outdated marketing]
+
+AND NEW ENTRANTS ARE HAMSTRUNG
+- Too expensive
+- Too GMO
+```
+
+**Slide 4: Why We Win**
+```
+THEY CAN'T TOUCH US
+
+BEEN THERE, DONE THAT — I've built forward-thinking food companies before:
+- Company A: 2009 → IPO
+- Company B: 2015 → Acquired
+```
+
+**Slide 5: Our Position**
+```
+OUR COMPANY IS RIGHT ON THE MONEY
+
+✓ A better first market than incumbents
+✓ A better product that consumers love
+✓ A sustainable product that resonates
+✓ A clearer path to expansion
+```
 
 ---
 
-### 5. 🎯 I Took It Personally
-**[Download Sample Deck](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/I+took+it+personally.pdf)**
+### 5. 🎯 I TOOK IT PERSONALLY
 
-**Use when:** The problem has impacted you personally (John Crowley founding biotech companies after his kids' rare disease diagnosis)
+**Use when:** The problem has impacted you personally
 
 **The beats:**
-1. "Let me tell you about a time when I tried/had to..." — Your personal story of struggle
-2. "It was an awful experience..." — The 2-3 fundamental barriers
-3. "I did my research..." — Who you talked to, what you learned, how long you iterated
-4. "I built the solution that I would want..." — Solving your problem uncovered a massive opportunity
+1. "Let me tell you about a time when I tried/had to..."
+2. "It was an awful experience..."
+3. "I did my research..."
+4. "I built the solution that I would want..."
 
-**When it works:** You have an authentic story. It's core to the narrative you share with customers and employees.
+#### SAMPLE DECK: Corporate Tax Software
 
-**Danger:** Only use if the story is authentic AND relatable. Investors should be able to put themselves in your shoes.
+**Slide 1: Personal Pain**
+```
+I'VE BEEN A RELUCTANT POWER USER OF TAX ACCOUNTANTS
 
----
+My First Co: 200 hours/year spent on tax matters
+My Second Co: $3M annual retainer for tax firm
+My Third Co: 3 firms in 3 years — Paper-driven
+```
 
-## Phase 1: Plot Selection
+**Slide 2: The Problem**
+```
+WHAT SHOULD BE A PART OF DOING BUSINESS BECAME ALL-CONSUMING
 
-Ask the founder:
-1. What's your company?
-2. What's your unique advantage?
-3. What do you know that others don't?
-4. Is there a personal story behind why you started this?
+- Unimaginably complex code
+- Unclear interpretation boundaries
+```
 
-Then suggest 1-2 pitch plots that fit best. Share the sample deck PDF for them to study.
+**Slide 3: The Research**
+```
+THE MORE I LEARNED, THE BIGGER THE OPPORTUNITY BECAME
 
----
+$10B — Annual spend/yr on tax prep
+$500K — Potential fines for tax fraud
+100+ years old — Leading firms are not innovating
+65% of Fortune 500 businesses have switched accountants in the last 5 years
+```
 
-## Phase 2: Deck Review
+**Slide 4: The Solution**
+```
+SO I BUILT THE SOLUTION I ALWAYS WANTED
 
-If they have an existing deck, audit against this checklist:
+CorpTax — Corporate Tax as a Service
 
-### Act I Checklist
-- [ ] Clear one-liner (what you do)
-- [ ] Market context (why this matters)
-- [ ] Unique insight (what you know)
-- [ ] Product clarity (what it actually is)
-- [ ] Signal (why this is working)
-
-### Common Problems
-1. **Too much text** — slides should be visual, one idea per slide
-2. **No clear plot** — just a list of information with no narrative
-3. **Buried insight** — the interesting stuff is on slide 12
-4. **No hook** — nothing to remember you by
-5. **Educating on the obvious** — telling investors what they already know
-
----
-
-## Phase 3: Deck Building
-
-Help structure from scratch:
-
-### Slide Outline
-
-**Act I (5-6 slides):**
-1. Title + one-liner
-2. The problem / market context
-3. Your insight
-4. The solution
-5. How it works
-6. Traction / proof
-
-**Act II (3-4 slides):**
-7. Business model
-8. Market size
-9. Competition
-10. Team
-
-**Act III (2-3 slides):**
-11. Vision
-12. The ask
-13. Contact
-
-### Rules
-
-- **One idea per slide**
-- **More visuals, less text**
-- **10-15 slides max**
-- **Each slide should be understandable in 3 seconds**
-- **A good deck pitch is 3-5 minutes**, leaving time for questions
+✓ Automatic integrations
+✓ On-demand guidance from top accountants
+✓ Streamlined, easy-to-use interface
+✓ AI-powered tax efficiency engine
+```
 
 ---
 
-## Phase 4: The 18-Word Test
+## How to Help Founders
 
-Can you describe your product in 18 words or less?
+### Step 1: Understand Their Story
+
+Ask:
+1. What does your company do? (One sentence)
+2. What's your unique insight or advantage?
+3. Is there a personal story behind why you started this?
+4. Who are your customers and what's changed for them?
+
+### Step 2: Match to a Plot
+
+Based on their answers, recommend 1-2 plots:
+
+| If they have... | Recommend |
+|-----------------|-----------|
+| A broken industry they're rebuilding | 🔄 Starting Over |
+| A clear analogy to transformed markets | ⬇️ Doing That Over Here |
+| Deep expertise and hidden insights | 💡 But Here's The Thing |
+| Data on emerging customer behavior | 📱 All The Kids Are Doing It |
+| A personal story driving the mission | 🎯 I Took It Personally |
+
+### Step 3: Build the Deck
+
+Use the sample content above as templates. Help them:
+1. Write each slide following the beat structure
+2. Keep it to ONE idea per slide
+3. Use concrete numbers and specifics
+4. Make each slide understandable in 3 seconds
+
+### Step 4: The 18-Word Test
+
+Their core pitch must pass this test:
 
 **Bad (says nothing):**
-> "COMPANY will help e-commerce stores sell more products using cutting-edge AI-enabled algorithms and machine learning."
+> "COMPANY will help e-commerce stores sell more products using cutting-edge AI-enabled algorithms."
 
 **Good (packed with detail):**
-> "COMPANY built Google's typeahead search box as a Magento plug-in. It boosts search-to-purchase conversion and AOV."
-
-The good version:
-- Lets investors immediately visualize the product
-- Says a product exists (past tense "built")
-- Mentions tech stack (Magento)
-- Alludes to the market (nontechnical SMBs)
-- Gives two reasons to use it
-- Avoids marketing fluff
+> "COMPANY built Google's typeahead search as a Magento plug-in. It boosts search-to-purchase conversion and AOV."
 
 ---
 
-## Sample Decks (Download All)
+## Slide Checklist
 
-| Plot | PDF |
-|------|-----|
-| 🔄 Starting Over | [Download](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Starting+over.pdf) |
-| ⬇️ Doing That Over Here | [Download](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/Doing+that+over+here.pdf) |
-| 💡 But Here's The Thing | [Download](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/But+here_s+the+thing.pdf) |
-| 📱 All The Kids Are Doing It | [Download](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/All+the+kids+are+doing+It.pdf) |
-| 🎯 I Took It Personally | [Download](https://d37ugbyn3rpeym.cloudfront.net/pitchdeck-guide-slides/I+took+it+personally.pdf) |
+**Act I (5-6 slides):**
+- [ ] Title + one-liner
+- [ ] The problem / market context
+- [ ] Your insight (the "but here's the thing")
+- [ ] The solution
+- [ ] How it works
+- [ ] Traction / proof
+
+**Act II (3-4 slides):**
+- [ ] Business model
+- [ ] Market size
+- [ ] Competition
+- [ ] Team
+
+**Act III (2-3 slides):**
+- [ ] Vision
+- [ ] The ask
+- [ ] Contact
+
+---
+
+## Common Mistakes to Flag
+
+1. **Too much text** — slides should be visual
+2. **No clear plot** — just a list of information
+3. **Buried insight** — the interesting stuff is on slide 12
+4. **No hook** — nothing memorable
+5. **Educating on the obvious** — telling investors what they know
+6. **Weak "why you"** — no founder-market fit story
+7. **Vague market size** — "if we get 1% of the market..."
 
 ---
 
 ## Source
 
-Framework from [Stripe Atlas: Starting your fundraising pitch deck](https://stripe.com/guides/atlas/pitchdeck), which has led to $4.5B in raised capital.
+Framework and sample decks from [Stripe Atlas: Starting your fundraising pitch deck](https://stripe.com/guides/atlas/pitchdeck), which has led to $4.5B in raised capital.
+
+---
+
+## Ready to start?
+
+Ask the founder: **"Tell me about your company in 2-3 sentences. What problem are you solving and for whom?"**
+
+Then guide them through plot selection and deck building using the samples above.
